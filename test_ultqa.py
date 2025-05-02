@@ -30,7 +30,7 @@ def test_fill_out_forms(page: Page):
     page.locator("#et_pb_contact_name_0").fill("John Doe")
     page.locator("#et_pb_contact_email_0").fill("JohnDoe@gmail.com")
     page.locator("#et_pb_contact_message_0").fill("This is a test message")
-    page.locator('input[data-first_digit="8"][data-second_digit="6"]').fill("14")
+
     
 
 
